@@ -75,6 +75,14 @@ export interface Projeto {
   impacto: string;
 }
 
+export interface OutroTrabalho {
+  titulo: string;
+  descricao: string;
+  tags: string[];
+  /** Quando presente, exibe uma faixa de destaque no rodapé do card. */
+  status?: string;
+}
+
 export interface Metrica {
   valor: string;
   label: string;
@@ -115,6 +123,11 @@ export const SECOES: SecaoNav[] = [
   { id: "certificados", label: "Certificados", icone: "/assets/graduation.png" },
   { id: "competencias", label: "Competências", icone: "/assets/flash.png" },
   { id: "projetos", label: "Projetos", icone: "/assets/start-up.png" },
+  {
+    id: "outros-trabalhos",
+    label: "Outros Trabalhos",
+    icone: "/assets/suitcase.png",
+  },
   { id: "contato", label: "Contato", icone: "/assets/telephone.png" },
 ];
 
@@ -419,6 +432,31 @@ export const PROJETOS: Projeto[] = [
       "Git/GitHub.",
     tecnologias: ["Git", "GitHub", "SQL", "Documentação"],
     impacto: "Confiabilidade e rastreabilidade dos dados.",
+  },
+];
+
+/**
+ * Atuações fora do vínculo CLT principal.
+ *
+ * As descrições abaixo são propositalmente enxutas — descrevem apenas o que
+ * o título já anuncia. Sinta-se à vontade para detalhar (plataformas usadas,
+ * clientes atendidos, resultados) editando os campos `descricao` e `tags`.
+ */
+export const OUTROS_TRABALHOS: OutroTrabalho[] = [
+  {
+    titulo: "Empreendedor de Sistemas e Plataformas E-commerce",
+    descricao:
+      "Atuação própria no desenvolvimento e na gestão de sistemas e " +
+      "plataformas de e-commerce, unindo tecnologia e visão de negócio.",
+    tags: ["E-commerce", "Sistemas", "Empreendedorismo", "Gestão"],
+  },
+  {
+    titulo: "Disponibilidade para atuar como PJ",
+    descricao:
+      "Aberto a atuar no modelo Pessoa Jurídica em projetos de dados, " +
+      "Business Intelligence, automação e desenvolvimento de sistemas.",
+    tags: ["PJ", "Projetos", "Consultoria", "Freelance"],
+    status: "Disponível para novos contratos",
   },
 ];
 

@@ -407,30 +407,6 @@ h1, h2, h3, h4 {
     align-items: center;
 }
 
-.badge-disponivel {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: rgba(63, 185, 80, 0.10);
-    border: 1px solid rgba(63, 185, 80, 0.35);
-    color: var(--success);
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.03em;
-    padding: 0.3rem 0.9rem;
-    border-radius: 100px;
-    margin-bottom: 0.9rem;
-    animation: fadeIn 0.9s var(--ease);
-}
-
-.badge-dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: var(--success);
-    animation: pulseDot 2s ease-out infinite;
-}
-
 .divider {
     border: none;
     height: 1px;
@@ -1413,7 +1389,6 @@ h1, h2, h3, h4 {
     .timeline { padding-left: 22px; }
     .timeline-item::before { left: -19px; width: 10px; height: 10px; }
     .timeline::before { left: 3px; }
-    .badge-disponivel { margin-left: auto; margin-right: auto; }
     .contato-grid { grid-template-columns: 1fr 1fr; gap: 0.9rem; }
     .cert-grid { grid-template-columns: 1fr; }
     .cta-row .btn { flex: 1; justify-content: center; }

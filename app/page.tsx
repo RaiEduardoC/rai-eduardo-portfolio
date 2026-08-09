@@ -5,6 +5,7 @@ import Experiencia from "@/components/Experiencia";
 import Footer from "@/components/Footer";
 import Formacao from "@/components/Formacao";
 import Header from "@/components/Header";
+import OutrosTrabalhos from "@/components/OutrosTrabalhos";
 import Projetos from "@/components/Projetos";
 import Sidebar from "@/components/Sidebar";
 import Sobre from "@/components/Sobre";
@@ -32,6 +33,7 @@ export default function Home() {
           <Certificados />
           <Competencias />
           <Projetos />
+          <OutrosTrabalhos />
           <Contato />
 
           <Footer />

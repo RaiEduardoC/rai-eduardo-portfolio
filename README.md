@@ -1,5 +1,12 @@
 # Portfólio — Raí Eduardo Cardoso
 
+### 🔗 [portfolio-rai-eduardo.vercel.app](https://portfolio-rai-eduardo.vercel.app)
+
+![Next.js](https://img.shields.io/badge/Next.js-15-000000?logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-deploy%20autom%C3%A1tico-000000?logo=vercel&logoColor=white)
+
 Portfólio profissional em **Next.js 15 + React 19 + TypeScript**, com deploy
 contínuo na **Vercel**.
 

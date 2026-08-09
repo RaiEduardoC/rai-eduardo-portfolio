@@ -13,10 +13,6 @@ export default function Header() {
         fetchPriority="high"
       />
       <div className="header-text">
-        <span className="badge-disponivel">
-          <span className="badge-dot" aria-hidden="true" />
-          Disponível para novas oportunidades
-        </span>
         <h1 className="header-name">{PERFIL.nome}</h1>
         <p className="header-role">{PERFIL.cargo}</p>
         <p className="header-location">

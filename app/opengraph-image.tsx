@@ -30,27 +30,6 @@ export default function OpenGraphImage() {
         <div
           style={{
             display: "flex",
-            alignItems: "center",
-            gap: "14px",
-            fontSize: 24,
-            color: "#3FB950",
-            marginBottom: "28px",
-          }}
-        >
-          <div
-            style={{
-              width: 14,
-              height: 14,
-              borderRadius: 999,
-              background: "#3FB950",
-            }}
-          />
-          Disponível para novas oportunidades
-        </div>
-
-        <div
-          style={{
-            display: "flex",
             fontSize: 76,
             fontWeight: 700,
             letterSpacing: "-0.03em",

@@ -22,7 +22,7 @@ export default function Projetos() {
               ))}
             </div>
             <div className="projeto-impacto">
-              <strong>💡 Impacto:</strong> {p.impacto}
+              <strong>Impacto:</strong> {p.impacto}
             </div>
           </Reveal>
         ))}

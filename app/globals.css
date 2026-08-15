@@ -852,19 +852,6 @@ h1, h2, h3, h4 {
     background: var(--bg-card-hover);
 }
 
-.curso-icone {
-    font-size: 2rem;
-    flex-shrink: 0;
-    width: 52px;
-    height: 52px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--grad-accent-soft);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-}
-
 .curso-info {
     flex: 1;
 }
@@ -999,7 +986,10 @@ h1, h2, h3, h4 {
 
 /* Botão de download como rodapé do card */
 .cert-download {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
     width: 100%;
     text-align: center;
     background: var(--bg-elevated);

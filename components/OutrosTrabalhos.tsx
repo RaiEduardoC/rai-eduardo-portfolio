@@ -25,7 +25,7 @@ export default function OutrosTrabalhos() {
             </div>
             {t.status && (
               <div className="projeto-impacto">
-                <strong>✅ Status:</strong> {t.status}
+                <strong>Status:</strong> {t.status}
               </div>
             )}
           </Reveal>

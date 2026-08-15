@@ -47,7 +47,6 @@ export interface Curso {
   escola: string;
   ano: string;
   status: Status;
-  icone: string;
 }
 
 export interface Certificado {
@@ -231,49 +230,42 @@ export const CURSOS: Curso[] = [
     escola: "Hashtag Treinamentos",
     ano: "2025",
     status: "Concluído",
-    icone: "🗃️",
   },
   {
     nome: "Power BI Avançado",
     escola: "Eduliv School Tec",
     ano: "2023–2024",
     status: "Concluído",
-    icone: "📊",
   },
   {
     nome: "Excel e VBA Avançado",
     escola: "Eduliv School Tec",
     ano: "2022–2024",
     status: "Concluído",
-    icone: "📈",
   },
   {
     nome: "Python (Pandas, APIs, Automação)",
     escola: "Hashtag Treinamentos",
     ano: "2025",
     status: "Cursando",
-    icone: "🐍",
   },
   {
     nome: "Power Automate",
     escola: "Hashtag Treinamentos",
     ano: "2025–2026",
     status: "Cursando",
-    icone: "⚙️",
   },
   {
     nome: "Desenvolvimento IA e OpenClaw",
     escola: "Hashtag Treinamentos",
     ano: "2026",
     status: "Cursando",
-    icone: "🤖",
   },
   {
     nome: "Data Science (Análise, ETL, SQL, BI)",
     escola: "Alex Lage Data Science / Anhanguera",
     ano: "—",
     status: "Concluído",
-    icone: "🧠",
   },
 ];
 

@@ -30,14 +30,11 @@ export default function Formacao() {
         </Reveal>
       ))}
 
-      <h3 className="subsection-title">📚 Cursos &amp; Especializações</h3>
+      <h3 className="subsection-title">Cursos &amp; Especializações</h3>
 
       <div className="cursos-grid">
         {CURSOS.map((c, i) => (
           <Reveal key={c.nome} className="curso-card" delay={0.04 * i}>
-            <div className="curso-icone" aria-hidden="true">
-              {c.icone}
-            </div>
             <div className="curso-info">
               <h4>{c.nome}</h4>
               <p>

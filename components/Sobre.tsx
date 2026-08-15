@@ -13,10 +13,10 @@ export default function Sobre() {
 
       <Reveal className="cta-row" delay={0.08}>
         <a href="#projetos" className="btn btn-primary">
-          🚀 Ver Projetos
+          Ver Projetos
         </a>
         <a href="#contato" className="btn btn-secondary">
-          💬 Fale Comigo
+          Fale Comigo
         </a>
       </Reveal>
 

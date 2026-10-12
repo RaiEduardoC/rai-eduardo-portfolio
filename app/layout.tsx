@@ -24,14 +24,14 @@ const mono = JetBrains_Mono({
 });
 
 const DESCRICAO =
-  "Portfólio de Raí Eduardo Cardoso — Analista de Dados Sênior em Logística " +
-  "e Business Intelligence. KPIs, OKRs, ETL, Power BI, SQL (Oracle), Python " +
-  "e automação de processos.";
+  "Portfólio de Raí Eduardo Cardoso — Logistics Specialist (Development), " +
+  "unindo logística, dados e desenvolvimento de software. KPIs, OKRs, ETL, " +
+  "Power BI, SQL (Oracle), Python, APIs e automação de processos.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${PERFIL.nome} | Analista de Dados`,
+    default: `${PERFIL.nome} | Logistics Specialist (Development)`,
     template: `%s | ${PERFIL.nome}`,
   },
   description: DESCRICAO,
@@ -40,6 +40,7 @@ export const metadata: Metadata = {
   creator: PERFIL.nome,
   keywords: [
     "Raí Eduardo Cardoso",
+    "Logistics Specialist",
     "Analista de Dados",
     "Business Intelligence",
     "Power BI",

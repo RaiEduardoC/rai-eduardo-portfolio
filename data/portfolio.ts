@@ -98,12 +98,12 @@ export interface SecaoNav {
 export const PERFIL: Perfil = {
   nome: "Raí Eduardo Cardoso",
   nomeCurto: "Raí E. Cardoso",
-  cargo: "Analista de Dados Sênior | Logística & BI",
-  cargoCurto: "Analista de Dados",
+  cargo: "Logistics Specialist (Development) | Dados, BI & Automação",
+  cargoCurto: "Logistics Specialist",
   resumo:
-    "Analista de Dados com foco em Business Intelligence, automação de " +
-    "processos e desenvolvimento de soluções orientadas a dados. Atuo na " +
-    "construção de KPIs, OKRs, modelagem de dados, processos ETL e " +
+    "Especialista que une logística e desenvolvimento de software, com " +
+    "background sólido em Business Intelligence e dados. Crio sistemas " +
+    "internos, integrações via API, automações, KPIs, OKRs, processos ETL e " +
     "dashboards estratégicos que apoiam a tomada de decisão.",
   localizacao: "Maringá - PR, Brasil",
   email: "raieduardocardoso@gmail.com",
@@ -139,10 +139,31 @@ export const METRICAS: Metrica[] = [
 
 export const EXPERIENCIAS: Experiencia[] = [
   {
+    cargo: "Logistics Specialist (Development)",
+    empresa: "Arilog Soluções em Logística",
+    local: "Paiçandu - PR · Híbrido",
+    periodo: "Setembro/2026 — Atual",
+    descricao:
+      "Responsável por unir operação logística e desenvolvimento de software, " +
+      "criando sistemas internos que automatizam processos e dão visibilidade " +
+      "à gestão. Atuação de ponta a ponta: do levantamento de requisitos " +
+      "operacionais à entrega da solução em produção, incluindo modelagem de " +
+      "dados, integrações via API, controle de acesso e dashboards de " +
+      "acompanhamento.",
+    tags: [
+      "Desenvolvimento",
+      "APIs",
+      "Modelagem de Dados",
+      "Controle de Acesso",
+      "Dashboards",
+      "Logística",
+    ],
+  },
+  {
     cargo: "Analista de Dados – Sênior (Logística)",
     empresa: "Arilog Soluções em Transporte",
     local: "Paiçandu - PR",
-    periodo: "Maio/2025 — Atual",
+    periodo: "Maio/2025 — Agosto/2026",
     descricao:
       "Responsável pela análise de dados no setor de logística, com foco na " +
       "criação de KPIs e OKRs voltados à otimização de processos e controle " +
@@ -253,6 +274,12 @@ export const CURSOS: Curso[] = [
     nome: "Power Automate",
     escola: "Hashtag Treinamentos",
     ano: "2025–2026",
+    status: "Concluído",
+  },
+  {
+    nome: "Engenharia Web (HTML5, CSS3, JavaScript)",
+    escola: "Hashtag Treinamentos",
+    ano: "2026",
     status: "Cursando",
   },
   {
@@ -359,6 +386,23 @@ export const COMPETENCIAS: CategoriaCompetencia[] = [
       { nome: "Power Automate", nivel: 100 },
       { nome: "Git & GitHub", nivel: 100 },
       { nome: "Integração via APIs", nivel: 100 },
+    ],
+  },
+  {
+    categoria: "Desenvolvimento Web",
+    skills: [
+      { nome: "HTML", nivel: 85 },
+      { nome: "CSS", nivel: 80 },
+      { nome: "JavaScript", nivel: 75 },
+      { nome: "APIs (REST e integrações)", nivel: 90 },
+    ],
+  },
+  {
+    categoria: "Gestão & Comunicação",
+    skills: [
+      { nome: "Liderança", nivel: 85 },
+      { nome: "Análise de Indicadores Gerenciais (DRE)", nivel: 90 },
+      { nome: "Oratória", nivel: 85 },
     ],
   },
   {
